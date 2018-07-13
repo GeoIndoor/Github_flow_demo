@@ -8,5 +8,6 @@ package top.geomatics.hello;
  *
  */
 public interface Greeting {
+	void sayHello();
 
 }
