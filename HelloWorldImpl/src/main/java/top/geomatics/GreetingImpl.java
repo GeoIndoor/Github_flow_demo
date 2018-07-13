@@ -1,5 +1,7 @@
 package top.geomatics;
 
+import top.geomatics.hello.Greeting;
+
 public class GreetingImpl implements Greeting{
 	final String m_name;
 
@@ -8,7 +10,6 @@ public class GreetingImpl implements Greeting{
 		this.m_name = m_name;
 	}
 	
-	@Override
 	public void sayHello() {
 		System.out.println("Hello, "+ m_name+"!");
 		
